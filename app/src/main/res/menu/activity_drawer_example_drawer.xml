@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_search"
+            android:title="Location"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_list"
+            android:title="Show me the animals!" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add_animal"
+            android:title="Add an animal" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="About" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share this app"
+                android:enabled="false"/>
+        </menu>
+    </item>
+
+</menu>

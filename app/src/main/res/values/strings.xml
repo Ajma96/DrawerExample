@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DrawerExample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="text2_drawer">Discover your environment!</string>
+    <string name="text1_drawer">Local Animal Finder</string>
+</resources>
